@@ -49,15 +49,6 @@
   }
 }
 
-@keyframes movedown {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 42px;
-  }
-}
-
 .header {
   &__logo {
     height: 35px;
@@ -604,5 +595,14 @@
         top: 10px;
       }
     }
+  }
+}
+
+@keyframes movedown {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 42px;
   }
 }
