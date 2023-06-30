@@ -1,4 +1,9 @@
 .mobile-search {
+  @media only screen and (min-width: 551px) and(max-width: 1400px) {
+    &__checkbox {
+      display: none;
+    }
+  }
   @media only screen and (min-width: 300px) and(max-width: 550px) {
     &__checkbox {
       display: none;
@@ -45,6 +50,11 @@
       transform: rotate(45deg);
       top: 0px;
       right: 4px;
+    }
+    @media only screen and (min-width: 551px) and(max-width: 1600px) {
+      & {
+        display: none;
+      }
     }
   }
 }
@@ -95,6 +105,11 @@
     @media only screen and (min-width: 300px) and(max-width: 550px) {
       width: 100%;
       padding: 12px;
+    }
+    @media only screen and (min-width: 551px) and(max-width: 800px) {
+      &::placeholder {
+        font-size: 12px;
+      }
     }
     &:focus {
       outline: none;
